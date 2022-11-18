@@ -124,12 +124,25 @@ h1 {
     padding: 50px;
 }
 
+.b4l1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.b4l2 {
+    font-size: 30px;
+    color: white;
+}
+
 .b4all {
     background-color: #3882f6;
     display: flex;
-    padding: 25px;
+    padding: 45px;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
+    margin: 0 400px 0 400px;
+    border-radius: 25px
 }
 
 #button2 {
