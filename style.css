@@ -94,3 +94,20 @@ h1 {
 .imgtext {
     text-align: center;
 }
+
+.body-three {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.pele {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
