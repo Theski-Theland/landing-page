@@ -101,23 +101,26 @@ h1 {
 }
 
 .quote {
-    padding: 100px 0 100px 0;
+    padding: 100px 400px 100px 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 0 300px 0 300px;
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .pele {
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
     margin-top: 16px;
+    text-align: right;
+    padding-right: 100px;
 }
 
 .body-four {
@@ -153,4 +156,8 @@ h1 {
     border: 2px solid white;
     border-radius: 20px;
     padding: 6px;
+}
+
+.footer {
+
 }
