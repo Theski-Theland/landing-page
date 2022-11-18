@@ -37,8 +37,8 @@ li {
 .hero-image {
     display: flex;
     justify-content: space-between;
-    padding: 100px 50px 100px 50px
-
+    padding: 100px 50px 100px 50px;
+    border-top: 1px solid white;
 }
 
 .hero-text {
