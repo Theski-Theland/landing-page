@@ -66,3 +66,31 @@ h1 {
     border-radius: 20px;
 }
 
+.header2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    padding: 60px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.espresso,
+.pastries,
+.hot,
+.iced {
+    border-radius: 25%;
+}
+
+.imageblocks {
+    width: 250px;
+}
+
+.imgtext {
+    text-align: center;
+}
