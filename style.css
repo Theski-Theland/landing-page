@@ -1,10 +1,12 @@
 html, body {
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .body-one {
     background-color: #1f2937;
+    padding: 0 200px 0 200px
 }
 
 .header1 {
@@ -14,7 +16,8 @@ html, body {
     padding: 12px;
 }
 
-.header1, .hero-text2 {
+.header1,
+.hero-text2 {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -29,3 +32,37 @@ ul {
 li {
     margin: 12px;
 }
+
+.hero-image {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 100px 50px
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.hero-text.button {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#button1 {
+    font-size: 30px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    width: 150px;
+    border: 0;
+    border-radius: 20px;
+}
+
