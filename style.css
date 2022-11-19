@@ -34,11 +34,6 @@ li {
     margin: 12px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .hero-image {
     display: flex;
     justify-content: space-between;
@@ -58,18 +53,36 @@ h1 {
     color: #f9faf8;
 }
 
-.hero-text.button {
-    font-size: 18px;
-    color: #e5e7eb;
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
 }
 
-#button1 {
+.button1 a,
+.button2 a {
+    height: 50px;
+    width: 150px;
+}
+
+.hero-text button {
     font-size: 30px;
-    color: #e5e7eb;
     background-color: #3882f6;
+    height: 50px;
     width: 150px;
     border: 0;
     border-radius: 20px;
+    padding: 8px 0 0 0;
+}
+
+.b4all button {
+    font-size: 24px;
+    background-color: #3882f6;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px 0 0 0;
 }
 
 .header2 {
@@ -153,16 +166,6 @@ h1 {
     gap: 200px;
     margin: 0 400px 0 400px;
     border-radius: 25px
-}
-
-#button2 {
-    font-size: 24px;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    width: 150px;
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 6px;
 }
 
 .footer {
