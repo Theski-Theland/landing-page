@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif
     min-height: 100vh;
 }
 
@@ -90,7 +90,11 @@ a {
     font-size: 36px;
     font-weight: 1000;
     color: #1f2937;
-    padding: 60px;
+    margin-bottom: 40px;
+}
+
+.body-two {
+    padding: 50px;
 }
 
 .blocks {
@@ -113,6 +117,8 @@ a {
 .imgtext {
     text-align: center;
     color: #1f2937;
+    padding-top: 8px;
+
 }
 
 .body-three {
@@ -130,8 +136,6 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    display: flex;
-    justify-content: center;
 }
 
 .pele {
@@ -173,4 +177,9 @@ a {
     text-align: center;
     padding: 25px;
     color: white;
+}
+
+span {
+    font-weight: 700;
+    color: red;
 }
