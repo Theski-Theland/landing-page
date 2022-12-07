@@ -184,3 +184,7 @@ span {
     font-weight: 700;
     color: red;
 }
+
+a:hover {
+    color: black;
+}
